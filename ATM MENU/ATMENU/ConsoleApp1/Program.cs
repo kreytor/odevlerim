@@ -64,6 +64,12 @@ namespace ConsoleApp1
                     }
                 }
 
+                //eğer sol tarafta kalan unsorted gruplar varsa onları da ekle
+                while(solIndex < orta)
+                {
+
+                }
+
                 //hersey belirlendigine gore artik bunlari konsola yazdirabiliriz!
                 for (int a = 0; a < 4; a++)
                 {
