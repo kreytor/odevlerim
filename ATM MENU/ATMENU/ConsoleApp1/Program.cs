@@ -1,4 +1,5 @@
 ﻿using System.Security.Cryptography;
+using System.Security.Permissions;
 
 namespace ConsoleApp1
 {
@@ -93,10 +94,9 @@ namespace ConsoleApp1
                     {
                         for (int satir = 0; satir < 2; satir++)
                         {
-                            int sayilar = line[linePos];
-                            box2x4[satir, sutun] = sayilar;
-                            Console.Write(sayilar + " ");
+                            box2x4[satir,sutun] = line[linePos];                            Console.Write( + " ");
                             linePos++;
+                            Console.Write(box2x4[satir, sutun] + "\t");
                         }
                         Console.WriteLine();
                     }
