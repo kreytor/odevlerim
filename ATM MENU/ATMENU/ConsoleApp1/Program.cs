@@ -1,4 +1,5 @@
 ﻿using System.Security.Cryptography;
+using System.Security.Permissions;
 
 namespace ConsoleApp1
 {
@@ -62,18 +63,44 @@ namespace ConsoleApp1
                         }
                         anaIndex++;
                     }
-                }
 
-                //hersey belirlendigine gore artik bunlari konsola yazdirabiliriz!
-                for (int a = 0; a < 4; a++)
-                {
-                    for (int b = 0; b < 4; b++)
+                    //eğer sol tarafta kalan unsorted gruplar varsa onları da ekle
+                    while(anaIndex < orta)
                     {
-                        Console.Write(m4[a, b]);
+                        tm[anaIndex] = line[solIndex];
+                        solIndex++;
+                        anaIndex++;
                     }
-                    Console.WriteLine();
+
+                    while (sagIndex < orta) 
+                    { 
+                        tm[anaIndex] = line[sagIndex];
+                        sagIndex++;
+                        anaIndex++;
+                    }
+
+                    for (int i = solBaslangic; i < sagBitis; i++)
+                    {
+                        line[i] = tm[i];
+                    }
+
+
+
+                    //hersey belirlendigine gore artik bunlari konsola yazdirabiliriz!
+                    int[,] box2x4 = new int[2, 4];
+                    linePos = 0;
+                    Console.WriteLine("Siralama: ");
+                    for (int sutun = 0; sutun < 4; sutun++)
+                    {
+                        for (int satir = 0; satir < 2; satir++)
+                        {
+                            box2x4[satir,sutun] = line[linePos];                            Console.Write( + " ");
+                            linePos++;
+                            Console.Write(box2x4[satir, sutun] + "\t");
+                        }
+                        Console.WriteLine();
+                    }
                 }
-            }
         }
     }
-}
+}}
