@@ -1,0 +1,15 @@
+C:\Users\demir\Documents\GitHub\odevlerim\ATM MENU\sinavcalisma\bin\Debug\net8.0\sinavcalisma.exe
+C:\Users\demir\Documents\GitHub\odevlerim\ATM MENU\sinavcalisma\bin\Debug\net8.0\sinavcalisma.deps.json
+C:\Users\demir\Documents\GitHub\odevlerim\ATM MENU\sinavcalisma\bin\Debug\net8.0\sinavcalisma.runtimeconfig.json
+C:\Users\demir\Documents\GitHub\odevlerim\ATM MENU\sinavcalisma\bin\Debug\net8.0\sinavcalisma.dll
+C:\Users\demir\Documents\GitHub\odevlerim\ATM MENU\sinavcalisma\bin\Debug\net8.0\sinavcalisma.pdb
+C:\Users\demir\Documents\GitHub\odevlerim\ATM MENU\sinavcalisma\obj\Debug\net8.0\sinavcalisma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\demir\Documents\GitHub\odevlerim\ATM MENU\sinavcalisma\obj\Debug\net8.0\sinavcalisma.AssemblyInfoInputs.cache
+C:\Users\demir\Documents\GitHub\odevlerim\ATM MENU\sinavcalisma\obj\Debug\net8.0\sinavcalisma.AssemblyInfo.cs
+C:\Users\demir\Documents\GitHub\odevlerim\ATM MENU\sinavcalisma\obj\Debug\net8.0\sinavcalisma.csproj.CoreCompileInputs.cache
+C:\Users\demir\Documents\GitHub\odevlerim\ATM MENU\sinavcalisma\obj\Debug\net8.0\sinavcalisma.sourcelink.json
+C:\Users\demir\Documents\GitHub\odevlerim\ATM MENU\sinavcalisma\obj\Debug\net8.0\sinavcalisma.dll
+C:\Users\demir\Documents\GitHub\odevlerim\ATM MENU\sinavcalisma\obj\Debug\net8.0\refint\sinavcalisma.dll
+C:\Users\demir\Documents\GitHub\odevlerim\ATM MENU\sinavcalisma\obj\Debug\net8.0\sinavcalisma.pdb
+C:\Users\demir\Documents\GitHub\odevlerim\ATM MENU\sinavcalisma\obj\Debug\net8.0\sinavcalisma.genruntimeconfig.cache
+C:\Users\demir\Documents\GitHub\odevlerim\ATM MENU\sinavcalisma\obj\Debug\net8.0\ref\sinavcalisma.dll
